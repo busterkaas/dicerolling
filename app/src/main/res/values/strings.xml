@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DiceRolling</string>
+    <string name="centerText">Select dice amount</string>
+    <string name="rollBtn">Roll dice(s)</string>
+    <string name="btnHistory">Show history</string>
+    <string name="btnBack">Back</string>
+    <string name="btnClear">Clear</string>
+</resources>

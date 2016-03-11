@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:text="11-04-90 12:44"
+        android:layout_centerVertical="true"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/layoutImages"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_width="155dp"
+        android:layout_height="23dp"
+        android:layout_margin="6dp"
+        >
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

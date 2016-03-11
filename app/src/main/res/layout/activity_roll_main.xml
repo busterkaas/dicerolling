@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b3000c41"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.buster.dicerolling.RollMain">
+
+    <TextView
+        android:textColor="#ffffff"
+        android:id="@+id/centerTextId"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/centerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <NumberPicker
+        android:id="@+id/numberPicker"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/centerTextId"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp">
+    </NumberPicker>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linearL"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/numberPicker"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRoll"
+        android:text="@string/rollBtn"
+        android:textSize="12sp"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:text="@string/btnHistory"
+        android:textSize="12sp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
